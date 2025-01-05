@@ -1,4 +1,4 @@
-const openBt = document.getElementById("open");
+const openBtn = document.getElementById("open");
 const closeBtn = document.getElementById("close");
 const containerEl = document.querySelector(".container");
 
