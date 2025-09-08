@@ -1,4 +1,4 @@
-const openBtn = document.getElementById("open")
+const openBtn = document.getElementById("open");
 const closeBtn = document.getElementById("close");
 const containerEl = document.querySelector(".container");
 
@@ -9,4 +9,5 @@ openBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
   containerEl.classList.remove("show-nav");
 });
+
 
